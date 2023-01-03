@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import TaskList from './components/container/task_list';
 import Ej1 from './hooks/ej1';
+import Ej2 from './hooks/ej2';
+import ComponenteContexto from './hooks/ej3';
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
         </p>
         <div>
           {/* <TaskList></TaskList> */}
-          <Ej1></Ej1>
+          {/* <Ej1></Ej1> */}
+          {/* <Ej2></Ej2> */}
+          <ComponenteContexto></ComponenteContexto>
         </div>
       </header>
     </div>
