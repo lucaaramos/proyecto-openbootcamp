@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TaskList from './components/container/task_list';
+import Ej1 from './hooks/ej1';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <TaskList></TaskList>
+          {/* <TaskList></TaskList> */}
+          <Ej1></Ej1>
         </div>
       </header>
     </div>
