@@ -10,10 +10,12 @@ const TaskList = () => {
 
         //estado del componente 
     const [tasks, setTasks] = useState([defaultTask])
+    const [loading, setLoading] = useState(true)
 
     //control de ciclo de vida
     useEffect(() => {
         console.log('Task state has been modified')
+        setLoading(false)
         return () => {
             console.log('TaskList compoente is going to unmount...')
         };
